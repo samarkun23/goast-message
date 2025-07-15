@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🕵️‍♂️ Anonymous Message App
 
-## Getting Started
+Send anonymous messages to anyone — built with Next.js and MongoDB.  
+OTP verification + AI message suggestions coming soon!
 
-First, run the development server:
+## 🚀 Demo
+- Coming soon 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Working on 
+- UI Part
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
+- Next.js
+- MongoDB
+- Tailwind CSS + DaisyUI
+- NextAuth
+- Nodemailer
+- TypeScript *(optional)*
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Features
+- Email OTP signup + verification
+- AI-generated message suggestions 
+- Send anonymous message to any user
+- Auth via credentials and Google
+- Protected routes
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Screenshots
+- Coming soon
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔧 Installation
+- Coming soon
+<!-- ```bash
+git clone https://github.com/your-username/anonymous-message-next
+cd anonymous-message-next
+npm install
+npm run dev -->
