@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Anonymous Message App
+# 🕵️‍♂️ Goast message App
 
 Send anonymous messages to anyone — built with Next.js and MongoDB.  
 OTP verification + AI message suggestions coming soon!
