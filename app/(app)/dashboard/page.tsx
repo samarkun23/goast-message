@@ -96,8 +96,12 @@ const dashboard = () => {
         }
     }
 
+    if (!session || !session.user) {
+        return <div> Please login </div>
+    }
+
     //url - https/name_of_site/u/username
-    const {username} = session?.user as User
+    const {username} = session.user as User
     // TODO : Some research of fetching url
     const baseUrl = `${window.location.protocol}//${window.location.host}` 
 
@@ -109,9 +113,6 @@ const dashboard = () => {
     }
 
 
-    if (!session || !session.user) {
-        return <div> Please login </div>
-    }
 
     return (
         <div className="my-8 mx-4 md:mx-8 lg:mx-auto p-6 bg-white rounded w-full max-w-6xl">
