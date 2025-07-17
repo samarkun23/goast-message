@@ -23,8 +23,8 @@ export const authOptions: NextAuthOptions = {
                         //or is a mongoose method go and read 
                         $or: [
                             //why identifie bec in nextauth email will received by this
-                            {email: credentials.identifier.email},
-                            {username: credentials.identifier.username}
+                            {email: credentials.identifier},
+                            {username: credentials.identifier}
                         ]
                     }) 
                     if (!user) {
@@ -40,6 +40,7 @@ export const authOptions: NextAuthOptions = {
                         //where user is going its going to providers authoptions
                     }else{
                         throw new Error('Incorrect Password')
+        
                     }
 
                 } catch (err: any) {
