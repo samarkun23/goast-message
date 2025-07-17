@@ -11,7 +11,7 @@ import axios, { AxiosError } from 'axios'
 
 //after imports
 import { signUpSchema } from "@/app/schemas/signUpSchema"
-import { ApiResponse } from "@/types/ApiResponse"
+import { ApiResponse } from "../../types/ApiResponse"
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
 import { Input } from "@/components/ui/Input"
 import { Button } from "@/components/ui/button"
