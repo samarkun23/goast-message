@@ -69,7 +69,7 @@ const signInPage = () => {
                                     <FormLabel>Email/Username</FormLabel>
                                     <FormControl>
                                         <Input placeholder="email/username"
-                                            {...field}
+                                            {...field ?? ""}
                                         />
                                     </FormControl>
                                     <FormMessage />
@@ -84,7 +84,7 @@ const signInPage = () => {
                                     <FormLabel>Password</FormLabel>
                                     <FormControl>
                                         <Input type="password" placeholder="password"
-                                            {...field}
+                                            {...field ?? ""}
                                         />
                                     </FormControl>
                                     <FormMessage />

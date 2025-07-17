@@ -99,7 +99,7 @@ const signUpPage = () => {
                   <FormLabel>Username</FormLabel>
                   <FormControl>
                     <Input placeholder="Username"
-                      {...field}
+                      {...field ?? ""}
                       onChange={(e) => {
                         field.onChange(e)
                         debounced(e.target.value)
@@ -123,7 +123,7 @@ const signUpPage = () => {
                   <FormLabel>Email</FormLabel>
                   <FormControl>
                     <Input placeholder="email"
-                      {...field} 
+                      {...field ?? ""} 
                     />
                   </FormControl> 
                   <FormMessage />
@@ -138,7 +138,7 @@ const signUpPage = () => {
                   <FormLabel>Password</FormLabel>
                   <FormControl>
                     <Input type="password" placeholder="password"
-                      {...field} 
+                      {...field ?? ""} 
                     />
                   </FormControl> 
                   <FormMessage />
