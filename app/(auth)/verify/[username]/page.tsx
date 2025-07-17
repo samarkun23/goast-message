@@ -2,7 +2,7 @@
 import { verfiySchema } from "@/app/schemas/verifySchema";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/Input";
-import { ApiResponse } from "@/types/ApiResponse";
+import { ApiResponse } from "../../../types/ApiResponse";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Button } from "@/components/ui/button";
 import axios, { AxiosError } from "axios";
