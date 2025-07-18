@@ -7,7 +7,7 @@ OTP verification + AI message suggestions coming soon!
 - Coming soon 
 
 ## Working on 
-- UI Part
+- Fixing some bugs
 
 ## 🛠️ Tech Stack
 - Next.js
